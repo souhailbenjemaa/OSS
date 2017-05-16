@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "geo":"http://www.w3.org/2003/01/geo/wgs84_pos#" ,     
+        "DUL":"http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "org": "http://www.w3.org/ns/org#",
+        "s": "http://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "ssn:observationResult": {
+            "@id":"http://purl.oclc.org/NET/ssnx/ssn#observationResult",
+            "@type": "@id"
+        },
+        "ssn:observedBy": {
+          "@id":"http://purl.oclc.org/NET/ssnx/ssn#observedBy",
+            "@type": "@id"
+        },
+        "ssn:hasValue": {
+           "@id":"http://purl.oclc.org/NET/ssnx/ssn#hasValue",
+            "@type": "@id" 
+        },
+        "ssn:observedProperty": {
+            "@id":"http://purl.oclc.org/NET/ssnx/ssn#observedProperty",
+            "@type": "@id"
+        },
+        "ssn:isPropertyOf": {
+           "@id":"http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf",
+            "@type": "@id"
+        },
+        "ssn:featureOfInterest": {
+         "@id":"http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest",
+            "@type": "@id"
+        },
+        "ssn:isProducedBy": {
+          "@id":"http://purl.oclc.org/NET/ssnx/ssn#isProducedBy",
+            "@type": "@id"
+        },
+        "ssn:observationResultTime": {
+            "@type": "xsd:dateTime"
+        },
+        "ssn:observes": {
+          "@id":"http://purl.oclc.org/NET/ssnx/ssn#observes",
+            "@type": "@id"
+        }
+    }
+}
